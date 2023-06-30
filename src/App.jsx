@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-    <div id="">
+    <div id="wrapper">
       <h1>Calculadora en proceso</h1>
     </div>
     </>
