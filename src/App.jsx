@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <div id="wrapper">
-      <div></div>
+      <div id="app"></div>
     </div>
     </>
   )
