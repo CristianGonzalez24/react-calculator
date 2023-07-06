@@ -5,3 +5,8 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+    font: 100 14px 'Roboto';
+}
