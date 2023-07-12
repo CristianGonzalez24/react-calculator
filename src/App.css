@@ -21,3 +21,9 @@ button:active {
     justify-content: center;
     align-items: center;
 }
+
+#app {
+    width: 320px;
+    height: 520px;
+    position: relative;
+}
