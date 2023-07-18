@@ -47,3 +47,7 @@ button:active {
     font-size: 6em;
     flex: 1;
 }
+
+.auto-scaling-text {
+    display: inline-block;
+}
