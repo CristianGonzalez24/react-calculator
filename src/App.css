@@ -58,3 +58,8 @@ button:active {
     right: 0;
     transform-origin: right;
 }
+
+.calculator-keypad {
+    height: 400px;
+    display: flex;
+}
