@@ -63,3 +63,7 @@ button:active {
     height: 400px;
     display: flex;
 }
+
+.calculator .input-keys {
+    width: 240px;
+}
