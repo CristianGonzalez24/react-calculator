@@ -67,3 +67,7 @@ button:active {
 .calculator .input-keys {
     width: 240px;
 }
+
+.calculator .function-keys {
+    display: flex;
+}
