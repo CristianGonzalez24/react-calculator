@@ -87,3 +87,7 @@ button:active {
     text-align: center;
     line-height: 80px;
 }
+
+.calculator .function-keys .calculator-key {
+    font-size: 2em;
+}
