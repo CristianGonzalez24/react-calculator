@@ -91,3 +91,7 @@ button:active {
 .calculator .function-keys .calculator-key {
     font-size: 2em;
 }
+
+.calculator .function-keys .key-multiply {
+    line-height: 50px;
+}
