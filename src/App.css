@@ -105,3 +105,8 @@ button:active {
     text-align: left;
     padding-left: 32px;
 }
+
+.calculator .digit-keys .key-dot {
+    padding-top: 1em;
+    font-size: 0.75em;
+}
