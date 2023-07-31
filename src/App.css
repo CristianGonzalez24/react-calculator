@@ -110,3 +110,9 @@ button:active {
     padding-top: 1em;
     font-size: 0.75em;
 }
+
+.calculator .operator-keys .calculator-key {
+    color: white;
+    border-right: 0;
+    font-size: 3em;
+}
