@@ -116,3 +116,7 @@ button:active {
     border-right: 0;
     font-size: 3em;
 }
+
+.calculator .function-keys {
+    background: linear-gradient(to bottom, rgba(202,202,204,1) 0%, rgba(196,194,204,1) 100%);
+}
