@@ -12,4 +12,5 @@ componentDidUpdate() {
     const { scale } = this.state
 
     const node = this.node
+    const parentNode = node.parentNode
 }
