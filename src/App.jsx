@@ -13,4 +13,6 @@ componentDidUpdate() {
 
     const node = this.node
     const parentNode = node.parentNode
+
+    const availableWidth = parentNode.offsetWidth
 }
