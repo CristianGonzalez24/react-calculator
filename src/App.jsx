@@ -16,4 +16,5 @@ componentDidUpdate() {
 
     const availableWidth = parentNode.offsetWidth
     const actualWidth = node.offsetWidth
+    const actualScale = availableWidth / actualWidth
 }
