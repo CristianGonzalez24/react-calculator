@@ -19,4 +19,8 @@ componentDidUpdate() {
     const actualScale = availableWidth / actualWidth
 
     if (scale === actualScale) return
+
+    if (actualScale < 1) {
+        this.setState({ scale: actualScale })
+    }
 }
