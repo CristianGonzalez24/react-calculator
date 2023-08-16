@@ -22,5 +22,7 @@ componentDidUpdate() {
 
     if (actualScale < 1) {
         this.setState({ scale: actualScale })
+    } else if (scale < 1) {
+        this.setState({ scale: 1})
     }
 }
