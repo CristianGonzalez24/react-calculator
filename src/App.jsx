@@ -6,7 +6,7 @@ class AutoScalingText extends React.Component {
     state = {
         scale: 1
     }
-}
+};
 
 componentDidUpdate() {
     const { scale } = this.state
@@ -25,4 +25,8 @@ componentDidUpdate() {
     } else if (scale < 1) {
         this.setState({ scale: 1})
     }
+}
+
+render() {
+    const { scale } = this.state
 }
