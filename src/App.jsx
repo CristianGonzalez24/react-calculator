@@ -29,4 +29,10 @@ componentDidUpdate() {
 
 render() {
     const { scale } = this.state
+
+    return (
+        <div
+        className="auto-scaling-text"
+        ></div>
+    )
 }
