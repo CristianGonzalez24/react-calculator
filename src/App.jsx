@@ -33,6 +33,7 @@ render() {
     return (
         <div
         className="auto-scaling-text"
+        style={{transform:`scale(${scale}, ${scale})`}}
         ></div>
     )
 }
