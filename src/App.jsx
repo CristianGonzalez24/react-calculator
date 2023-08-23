@@ -35,6 +35,6 @@ render() {
         className="auto-scaling-text"
         style={{transform:`scale(${scale}, ${scale})`}}
         ref={node => this.node = node}
-        ></div>
+        >{this.props.children}</div>
     )
 }
