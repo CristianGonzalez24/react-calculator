@@ -39,6 +39,13 @@ class AutoScalingText extends React.Component {
     }
 }
 class CalculatorDisplay extends React.Component {
-    
+    render() {
+        const {value, ...props} = this.props;
+        
+        return(
+            <div></div>
+        )
+    }
 }
+
 
