@@ -42,6 +42,7 @@ class CalculatorDisplay extends React.Component {
     render() {
         const {value, ...props} = this.props;
         
+        const language = navigator.language || 'en-US'
         return(
             <div></div>
         )
