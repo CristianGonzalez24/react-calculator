@@ -48,6 +48,9 @@ class CalculatorDisplay extends React.Component {
             useGrouping: true,
             maximumFractionDigits: 6
         })
+
+        const match = value.match(/\.\d*?(0*)$/)
+
         return(
             <div></div>
         )
