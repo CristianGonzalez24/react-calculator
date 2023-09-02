@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
 
 const PointTarget = ReactPoint.PointTarget
@@ -50,6 +51,9 @@ class CalculatorDisplay extends React.Component {
         })
 
         const match = value.match(/\.\d*?(0*)$/)
+
+        if (match) 
+            formattedValue += (/[1-9]/).test(match[0]) ? match[1] : match[0]
 
         return(
             <div></div>
