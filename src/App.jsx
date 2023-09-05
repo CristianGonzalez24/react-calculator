@@ -57,7 +57,7 @@ class CalculatorDisplay extends React.Component {
 
         return(
             <div {...props} className="calculator-display">
-
+                <AutoScalingText>{formattedValue}</AutoScalingText>
             </div>
         )
     }
