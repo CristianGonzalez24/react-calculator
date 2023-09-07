@@ -64,7 +64,11 @@ class CalculatorDisplay extends React.Component {
 }
 
 class CalculatorKey extends React.Component {
-    
+    render() {
+        return(
+            <PointTarget></PointTarget>
+        )
+    }
 }
 
 
