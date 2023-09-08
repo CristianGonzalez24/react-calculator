@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import React, { Component } from 'react';
 import './App.css'
 
 const PointTarget = ReactPoint.PointTarget
@@ -65,6 +66,9 @@ class CalculatorDisplay extends React.Component {
 
 class CalculatorKey extends React.Component {
     render() {
+
+        const { onPrees, className, ...props} = this.props
+
         return(
             <PointTarget></PointTarget>
         )
