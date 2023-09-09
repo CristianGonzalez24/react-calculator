@@ -67,10 +67,12 @@ class CalculatorDisplay extends React.Component {
 class CalculatorKey extends React.Component {
     render() {
 
-        const { onPrees, className, ...props} = this.props
+        const { onPress, className, ...props} = this.props
 
         return(
-            <PointTarget></PointTarget>
+            <PointTarget onPoint={onPress}>
+                <button/>
+            </PointTarget>
         )
     }
 }
