@@ -71,7 +71,7 @@ class CalculatorKey extends React.Component {
 
         return(
             <PointTarget onPoint={onPress}>
-                <button/>
+                <button className={`calculator-key ${className}`} {...props}/>
             </PointTarget>
         )
     }
