@@ -77,4 +77,5 @@ class CalculatorKey extends React.Component {
     }
 }
 
+const CalculatorOperations = {}
 
