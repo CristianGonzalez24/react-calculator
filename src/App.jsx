@@ -78,6 +78,7 @@ class CalculatorKey extends React.Component {
 }
 
 const CalculatorOperations = {
-    '/': (prevValue, nextValue) => prevValue / nextValue
+    '/': (prevValue, nextValue) => prevValue / nextValue,
+    '*': (prevValue, nextValue) => prevValue * nextValue
 }
 
