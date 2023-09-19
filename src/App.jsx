@@ -85,3 +85,6 @@ const CalculatorOperations = {
     '=': (prevValue, nextValue) => nextValue
 }
 
+class Calculator extends React.Component {
+
+}
