@@ -90,5 +90,6 @@ class Calculator extends React.Component {
         value: null,
         displayValue: '0',
         operator: null,
+        waitingForOperand: false
     }
 }
