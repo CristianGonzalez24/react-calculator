@@ -93,3 +93,9 @@ class Calculator extends React.Component {
         waitingForOperand: false
     }
 }
+
+clearAll() {
+    this.setState({
+
+    })
+}
