@@ -92,10 +92,10 @@ class Calculator extends React.Component {
         operator: null,
         waitingForOperand: false
     }
-}
-
-clearAll() {
-    this.setState({
-
+    
+    clearAll() {
+        this.setState({
+        value: null,
     })
+    }
 }
