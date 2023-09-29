@@ -97,6 +97,7 @@ class Calculator extends React.Component {
         this.setState({
         value: null,
         displayValue: '0',
+        operator: null,
     })
     }
 }
