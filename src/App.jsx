@@ -101,4 +101,8 @@ class Calculator extends React.Component {
         waitingForOperand: false
         })
     }
+
+    clearDisplay(){
+        
+    }
 }
