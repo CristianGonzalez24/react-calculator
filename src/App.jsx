@@ -104,7 +104,7 @@ class Calculator extends React.Component {
 
     clearDisplay(){
         this.setState({
-            
+            displayValue: '0'
         })
     }
 }
