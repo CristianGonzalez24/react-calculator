@@ -107,4 +107,8 @@ class Calculator extends React.Component {
             displayValue: '0'
         })
     }
+
+    clearLastChar() {
+        
+    }
 }
