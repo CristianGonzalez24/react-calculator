@@ -109,6 +109,6 @@ class Calculator extends React.Component {
     }
 
     clearLastChar() {
-        
+        const {displayValue} = this.state
     }
 }
