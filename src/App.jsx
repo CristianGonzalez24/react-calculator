@@ -112,7 +112,7 @@ class Calculator extends React.Component {
         const {displayValue} = this.state
 
         this.setState({
-            
+            displayValue: displayValue.substring(0, displayValue.length - 1) || '0'
         })
     }
 }
