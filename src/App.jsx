@@ -115,4 +115,8 @@ class Calculator extends React.Component {
             displayValue: displayValue.substring(0, displayValue.length - 1) || '0'
         })
     }
+
+    toggleSign() {
+        
+    }
 }
