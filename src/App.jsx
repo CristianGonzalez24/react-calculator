@@ -117,6 +117,6 @@ class Calculator extends React.Component {
     }
 
     toggleSign() {
-        
+        const { displayValue } = this.state
     }
 }
