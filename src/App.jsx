@@ -118,5 +118,6 @@ class Calculator extends React.Component {
 
     toggleSign() {
         const { displayValue } = this.state
+        const newValue = parseFloat(displayValue) * -1
     }
 }
