@@ -126,6 +126,6 @@ class Calculator extends React.Component {
     }
 
     inputPercent() {
-        
+        const { displayValue } = this.state
     }
 }
