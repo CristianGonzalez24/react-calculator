@@ -127,5 +127,6 @@ class Calculator extends React.Component {
 
     inputPercent() {
         const { displayValue } = this.state
+        const currentValue = parseFloat(displayValue)
     }
 }
