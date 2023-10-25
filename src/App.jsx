@@ -132,6 +132,7 @@ class Calculator extends React.Component {
         if (currentValue === 0)
             return
         
-        const fixedDigits = displayValue.replace(/^-?\d*\.?/, '')
+        const fixedDigits = displayValue.replace(/^-?\d*\.?/, '');
+        const newValue = parseFloat(displayValue) / 100;
     }
 }
