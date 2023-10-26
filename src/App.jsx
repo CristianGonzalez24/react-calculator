@@ -134,5 +134,9 @@ class Calculator extends React.Component {
         
         const fixedDigits = displayValue.replace(/^-?\d*\.?/, '');
         const newValue = parseFloat(displayValue) / 100;
+
+        this.setState({
+            
+        })
     }
 }
