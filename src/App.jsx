@@ -136,7 +136,7 @@ class Calculator extends React.Component {
         const newValue = parseFloat(displayValue) / 100;
 
         this.setState({
-            
+            displayValue: String(newValue.toFixed(fixedDigits.length + 2))
         })
     }
 }
