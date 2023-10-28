@@ -139,4 +139,8 @@ class Calculator extends React.Component {
             displayValue: String(newValue.toFixed(fixedDigits.length + 2))
         })
     }
+
+    inputDot() {
+        
+    }
 }
