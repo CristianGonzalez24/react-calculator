@@ -142,5 +142,9 @@ class Calculator extends React.Component {
 
     inputDot() {
         const { displayValue } = this.state;
+
+        if (!(/\./).test(displayValue)) {
+
+        }
     }
 }
