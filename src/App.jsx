@@ -144,7 +144,9 @@ class Calculator extends React.Component {
         const { displayValue } = this.state;
 
         if (!(/\./).test(displayValue)) {
-
+            this.setState({
+                
+            })
         }
     }
 }
