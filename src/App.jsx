@@ -146,7 +146,10 @@ class Calculator extends React.Component {
         if (!(/\./).test(displayValue)) {
             this.setState({
                 displayValue: displayValue + '.',
+                waitingForOperand: false
             })
         }
     }
+
+    
 }
