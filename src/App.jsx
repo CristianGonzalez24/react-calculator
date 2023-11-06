@@ -151,5 +151,7 @@ class Calculator extends React.Component {
         }
     }
 
+    inputDigit(digit) {
     
+    }
 }
