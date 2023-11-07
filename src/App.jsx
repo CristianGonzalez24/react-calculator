@@ -152,6 +152,6 @@ class Calculator extends React.Component {
     }
 
     inputDigit(digit) {
-    
+        const { displayValue, waitingForOperand } = this.setState
     }
 }
