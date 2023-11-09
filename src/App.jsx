@@ -155,7 +155,9 @@ class Calculator extends React.Component {
         const { displayValue, waitingForOperand } = this.setState
 
         if (waitingForOperand) {
-            
+            this.setState({
+                
+            })
         }
     }
 }
