@@ -156,7 +156,7 @@ class Calculator extends React.Component {
 
         if (waitingForOperand) {
             this.setState({
-                
+                displayValue: String(digit),
             })
         }
     }
