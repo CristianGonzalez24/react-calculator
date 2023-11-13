@@ -159,6 +159,8 @@ class Calculator extends React.Component {
                 displayValue: String(digit),
                 waitingForOperand: false
             })
+        } else {
+            
         }
     }
 }
