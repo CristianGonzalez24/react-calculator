@@ -160,7 +160,9 @@ class Calculator extends React.Component {
                 waitingForOperand: false
             })
         } else {
-            
+            this.setState({
+                
+            })
         }
     }
 }
