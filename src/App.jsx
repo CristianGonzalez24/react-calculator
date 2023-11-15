@@ -161,7 +161,7 @@ class Calculator extends React.Component {
             })
         } else {
             this.setState({
-                
+                displayValue: displayValue === '0' ? String(digit) : displayValue + digit
             })
         }
     }
