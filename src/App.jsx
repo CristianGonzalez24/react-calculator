@@ -165,4 +165,8 @@ class Calculator extends React.Component {
             })
         }
     }
+
+    performOperation(nextOperator) {
+        
+    }
 }
