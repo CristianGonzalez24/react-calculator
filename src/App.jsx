@@ -167,6 +167,6 @@ class Calculator extends React.Component {
     }
 
     performOperation(nextOperator) {
-        
+        const { value, displayValue, operator } = this.state
     }
 }
