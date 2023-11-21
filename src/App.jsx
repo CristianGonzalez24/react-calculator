@@ -169,5 +169,9 @@ class Calculator extends React.Component {
     performOperation(nextOperator) {
         const { value, displayValue, operator } = this.state
         const inputValue = parseFloat(displayValue)
+
+        if (value == null) {
+            
+        }
     }
 }
