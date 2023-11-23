@@ -172,7 +172,7 @@ class Calculator extends React.Component {
 
         if (value == null) {
             this.setState({
-                
+                value: inputValue
             })
         }
     }
