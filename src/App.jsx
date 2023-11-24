@@ -174,6 +174,8 @@ class Calculator extends React.Component {
             this.setState({
                 value: inputValue
             })
+        } else if (operator) {
+            
         }
     }
 }
