@@ -176,6 +176,7 @@ class Calculator extends React.Component {
             })
         } else if (operator) {
             const currentValue = value || 0
+            const newValue = CalculatorOperations[operator](currentValue, inputValue)
         }
     }
 }
