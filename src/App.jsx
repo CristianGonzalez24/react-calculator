@@ -179,7 +179,7 @@ class Calculator extends React.Component {
             const newValue = CalculatorOperations[operator](currentValue, inputValue)
 
             this.setState({
-                
+                value: newValue,
             })
         }
     }
