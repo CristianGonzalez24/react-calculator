@@ -180,6 +180,7 @@ class Calculator extends React.Component {
 
             this.setState({
                 value: newValue,
+                displayValue: String(newValue)
             })
         }
     }
