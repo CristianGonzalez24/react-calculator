@@ -183,5 +183,9 @@ class Calculator extends React.Component {
                 displayValue: String(newValue)
             })
         }
+
+        this.setState({
+            
+        })
     }
 }
