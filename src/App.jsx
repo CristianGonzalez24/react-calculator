@@ -186,6 +186,7 @@ class Calculator extends React.Component {
 
         this.setState({
             waitingForOperand: true,
+            operator: nextOperator
         })
     }
 }
