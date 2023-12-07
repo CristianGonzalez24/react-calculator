@@ -191,6 +191,6 @@ class Calculator extends React.Component {
     }
 
     handleKeyDown = (event) => {
-        
+        let { key } = event
     }
 }
