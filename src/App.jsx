@@ -194,5 +194,6 @@ class Calculator extends React.Component {
         let { key } = event
 
         if (key === 'Enter')
+            key = '='
     }
 }
