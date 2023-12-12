@@ -197,7 +197,7 @@ class Calculator extends React.Component {
             key = '='
 
         if ((/\d/).test(key)) {
-            
+            event.preventDefault()
         }
     }
 }
