@@ -198,6 +198,7 @@ class Calculator extends React.Component {
 
         if ((/\d/).test(key)) {
             event.preventDefault()
+            this.inputDigit(parseInt(key, 10))
         }
     }
 }
