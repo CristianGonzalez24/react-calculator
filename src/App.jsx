@@ -201,6 +201,7 @@ class Calculator extends React.Component {
             this.inputDigit(parseInt(key, 10))
         } else if (key in CalculatorOperations) {
             event.preventDefault()
+            this.performOperation(key)
         }
     }
 }
