@@ -202,6 +202,8 @@ class Calculator extends React.Component {
         } else if (key in CalculatorOperations) {
             event.preventDefault()
             this.performOperation(key)
+        } else if (key === '.') {
+
         }
     }
 }
