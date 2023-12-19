@@ -203,7 +203,7 @@ class Calculator extends React.Component {
             event.preventDefault()
             this.performOperation(key)
         } else if (key === '.') {
-
+            event.preventDefault()
         }
     }
 }
