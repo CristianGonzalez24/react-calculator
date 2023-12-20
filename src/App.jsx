@@ -204,6 +204,7 @@ class Calculator extends React.Component {
             this.performOperation(key)
         } else if (key === '.') {
             event.preventDefault()
+            this.inputDot()
         }
     }
 }
