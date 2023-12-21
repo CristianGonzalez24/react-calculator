@@ -205,6 +205,8 @@ class Calculator extends React.Component {
         } else if (key === '.') {
             event.preventDefault()
             this.inputDot()
+        } else if(key === '%') {
+            
         }
     }
 }
