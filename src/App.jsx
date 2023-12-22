@@ -206,7 +206,7 @@ class Calculator extends React.Component {
             event.preventDefault()
             this.inputDot()
         } else if(key === '%') {
-            
+            event.preventDefault()
         }
     }
 }
