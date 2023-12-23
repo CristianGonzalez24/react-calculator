@@ -207,6 +207,7 @@ class Calculator extends React.Component {
             this.inputDot()
         } else if(key === '%') {
             event.preventDefault()
+            this.inputPercent()
         }
     }
 }
