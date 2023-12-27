@@ -209,7 +209,7 @@ class Calculator extends React.Component {
             event.preventDefault()
             this.inputPercent()
         } else if (key === 'Backspace') {
-            
+            event.preventDefault()
         }
     }
 }
