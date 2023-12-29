@@ -211,6 +211,8 @@ class Calculator extends React.Component {
         } else if (key === 'Backspace') {
             event.preventDefault()
             this.clearLastChar()
+        } else if (key === 'Clear') {
+            
         }
     }
 }
