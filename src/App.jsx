@@ -212,7 +212,7 @@ class Calculator extends React.Component {
             event.preventDefault()
             this.clearLastChar()
         } else if (key === 'Clear') {
-            
+            event.preventDefault()
         }
     }
 }
