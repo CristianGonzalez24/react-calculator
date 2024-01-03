@@ -214,8 +214,8 @@ class Calculator extends React.Component {
         } else if (key === 'Clear') {
             event.preventDefault()
             if (this.state.displayValue !== '0') {
-                
-            }
+                this.clearDisplay()
+            }   
         }
     }
 }
