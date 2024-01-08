@@ -221,5 +221,7 @@ class Calculator extends React.Component {
         }
     }
 
-    
+    componentDidMount() {
+        
+    }
 }
