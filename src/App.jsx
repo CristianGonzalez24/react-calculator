@@ -228,4 +228,10 @@ class Calculator extends React.Component {
     componentWillUnmount() {
         document.removeEventListener('keydown', this.handleKeyDown)
     }
+
+    render() {
+        
+
+        return('')
+    }
 }
