@@ -230,7 +230,7 @@ class Calculator extends React.Component {
     }
 
     render() {
-        
+        const { displayValue } = this.state
 
         return('')
     }
