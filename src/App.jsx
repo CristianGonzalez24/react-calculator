@@ -231,8 +231,9 @@ class Calculator extends React.Component {
 
     render() {
         const { displayValue } = this.state
-
         const clearDisplay = displayValue !== '0'
+        const clearText = clearDisplay ? 'C' : 'AC'
+
         return('')
     }
 }
