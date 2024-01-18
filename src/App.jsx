@@ -234,6 +234,10 @@ class Calculator extends React.Component {
         const clearDisplay = displayValue !== '0'
         const clearText = clearDisplay ? 'C' : 'AC'
 
-        return('')
+        return(
+            <div className='calculator'>
+                
+            </div>
+        )
     }
 }
