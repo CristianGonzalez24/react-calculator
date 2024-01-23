@@ -238,7 +238,9 @@ class Calculator extends React.Component {
             <div className='calculator'>
                 <CalculatorDisplay value={displayValue}/>
                 <div className='calculator-keypad'>
-
+                    <div className='input-keys'>
+                        
+                    </div>
                 </div>
             </div>
         )
