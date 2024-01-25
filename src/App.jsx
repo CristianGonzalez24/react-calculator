@@ -240,7 +240,7 @@ class Calculator extends React.Component {
                 <div className='calculator-keypad'>
                     <div className='input-keys'>
                         <div className='function-keys'>
-                            
+                            <CalculatorKey className='key-clear'></CalculatorKey>
                         </div>
                     </div>
                 </div>
