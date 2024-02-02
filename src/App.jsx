@@ -241,7 +241,7 @@ class Calculator extends React.Component {
                     <div className='input-keys'>
                         <div className='function-keys'>
                             <CalculatorKey className="key-clear" onPress={() => clearDisplay ? this.clearDisplay() : this.clearAll()}>{clearText}</CalculatorKey>
-                            <CalculatorKey className="key-sign"></CalculatorKey>
+                            <CalculatorKey className="key-sign" onPress={() => this.toggleSign()}></CalculatorKey>
                         </div>
                     </div>
                 </div>
