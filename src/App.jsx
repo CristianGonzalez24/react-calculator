@@ -244,8 +244,8 @@ class Calculator extends React.Component {
                             <CalculatorKey className="key-sign" onPress={() => this.toggleSign()}>±</CalculatorKey>
                             <CalculatorKey className="key-percent" onPress={() => this.inputPercent()}>%</CalculatorKey>
                         </div>
-                        <div>
-                            
+                        <div className="digit-keys">
+
                         </div>
                     </div>
                 </div>
