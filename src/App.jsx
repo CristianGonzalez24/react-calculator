@@ -245,7 +245,7 @@ class Calculator extends React.Component {
                             <CalculatorKey className="key-percent" onPress={() => this.inputPercent()}>%</CalculatorKey>
                         </div>
                         <div className="digit-keys">
-                            <CalculatorKey className="key-0" onPress={() => ''}></CalculatorKey>
+                            <CalculatorKey className="key-0" onPress={() => this.inputDigit(0)}>0</CalculatorKey>
                         </div>
                     </div>
                 </div>
