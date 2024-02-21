@@ -246,7 +246,7 @@ class Calculator extends React.Component {
                         </div>
                         <div className="digit-keys">
                             <CalculatorKey className="key-0" onPress={() => this.inputDigit(0)}>0</CalculatorKey>
-                            <CalculatorKey className="" onPress={() => ''}>●</CalculatorKey>
+                            <CalculatorKey className="key-dot" onPress={() => ''}>●</CalculatorKey>
                         </div>
                     </div>
                 </div>
