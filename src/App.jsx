@@ -251,7 +251,7 @@ class Calculator extends React.Component {
                             <CalculatorKey className="key-2" onPress={() => this.inputDigit(2)}>2</CalculatorKey>
                             <CalculatorKey className="key-3" onPress={() => this.inputDigit(3)}>3</CalculatorKey>
                             <CalculatorKey className="key-4" onPress={() => this.inputDigit(4)}>4</CalculatorKey>
-                            <CalculatorKey className="" onPress={() => ''}>5</CalculatorKey>
+                            <CalculatorKey className="key-5" onPress={() => ''}>5</CalculatorKey>
                         </div>
                     </div>
                 </div>
